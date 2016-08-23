@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cam1_preview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.utkay.miacam.Cam1Next">
+
+
+    <FrameLayout
+        android:layout_width="347dp"
+        android:layout_height="540dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageButton
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/checkbox_on_background"
+            android:id="@+id/yes1"
+            android:layout_gravity="left|bottom"/>
+
+        <ImageButton
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            app:srcCompat="@android:drawable/btn_dialog"
+            android:id="@+id/no1"
+            android:layout_gravity="right|bottom"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_light_disabled"
+            android:id="@+id/photo"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
